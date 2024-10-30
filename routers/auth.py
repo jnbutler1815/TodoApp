@@ -43,6 +43,3 @@ async def create_user(db: db_dependency,
     )
     db.add(create_user_model)
     db.commit()
-
-
-
